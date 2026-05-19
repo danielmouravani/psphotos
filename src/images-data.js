@@ -4,11 +4,7 @@ export const imagesData = [
     "category": "eventos",
     "title": "5FD861E3-33D9-43E0-8E64-6AFF01289601.JPG.jpeg"
   },
-  {
-    "src": "imagens/6E88FD08-9361-4AC2-962D-160DE0C27DA1.JPG.jpeg",
-    "category": "eventos",
-    "title": "6E88FD08-9361-4AC2-962D-160DE0C27DA1.JPG.jpeg"
-  },
+
   {
     "src": "imagens/casorio1.jpeg",
     "category": "eventos",
