@@ -95,7 +95,7 @@ function renderGallery() {
         masonryGrid.appendChild(item);
 
         item.addEventListener('click', () => {
-            openLightbox(`/${img.src}`, img.title);
+            openLightbox(`/${img.src}`);
         });
     });
 
@@ -135,13 +135,11 @@ if(masonryGrid) {
 // 6. Lightbox
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-img');
-const lightboxCaption = document.getElementById('lightbox-caption');
 const lightboxClose = document.getElementById('lightbox-close');
 
-function openLightbox(src, caption) {
+function openLightbox(src) {
     if(lightbox) {
         lightboxImg.src = src;
-        lightboxCaption.textContent = caption;
         lightbox.classList.add('active');
         document.body.style.overflow = 'hidden';
     }
