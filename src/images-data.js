@@ -299,10 +299,5 @@ export const imagesData = [
     "src": "imagens/profissional3.jpeg",
     "category": "profissionais",
     "title": "profissional3.jpeg"
-  },
-  {
-    "src": "imagens/profissional8.jpeg",
-    "category": "profissionais",
-    "title": "profissional8.jpeg"
   }
 ];
